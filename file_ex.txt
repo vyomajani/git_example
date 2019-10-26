@@ -1,0 +1,10 @@
+This is my first Github project
+Just testing things out
+Git Cheat Sheet
+git init: initialize an empty repo
+git status: displays tracked, modified, etc
+git add: add untracked or changed files to the potential commit
+git commit -m "message": locally save files
+git pull: always pull before you push!
+potential merge conflict --> fix, status, add, commit, pull, tbd
+git push
