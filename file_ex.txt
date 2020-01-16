@@ -1,12 +1,38 @@
 This is my first Github project
 Just testing things out
+
+The order in which you want to do things:
+
+1) If you are cloning an existing repository on GitHub to your computer (Change directories as needed)
+git config --global user.email "vyomajani@gmail.com"
+git config --global user.name "vyomajani"
+git clone https://github.com/16egong/peer_mentor_project.git
+cp existingFile clonedRepository
+git add '.\FileName'
+git commit -m "Message"
+git status (Check for issues)
+git pull
+git push
+
+2) If you are creating a new repository
+
+
 Git Cheat Sheet
+git clone URL: clones an existing repository to create a new directory in the current one, that has the information existing online
+
 git init: initialize an empty repo
 git remote add origin git@github.com/user_name/repo
 git push -u origin master
 git status: displays tracked, modified, etc
-git add: add untracked or changed files to the potential commit
+git add file_name: add untracked or changed files to the potential commit
 git commit -m "message": locally save files
 git pull: always pull before you push!
 potential merge conflict --> fix, status, add, commit, pull, tbd
-git push
+git push: push to github
+
+git checkout -b branch-name: creates separate branch and switches you to it
+git checkout file-name: Delete changes made in the file
+git reset --hard HEAD: erase everything you did since last commit
+git reset --soft HEAD: did all changes, but didn't mean to hit save (want to change commit message) Ex. data should never be pushed to git
+	Unadd huge files, but don't want to delete changes
+git reset file-name: unadd the file (no longer being tracked)
