@@ -3,7 +3,22 @@ Just testing things out
 
 The order in which you want to do things:
 
-1) If you are cloning an existing repository on GitHub to your computer (Change directories as needed)
+1) If you modified a file already on GitHub and you want to push it again
+
+Be sure to be in the correct directory with the file
+
+git config --global user.email "vyomajani@gmail.com"
+git config --global user.name "vyomajani"
+git add '.\FileName'
+git commit -m "Message"
+git status (Check for issues)
+git pull
+git push
+
+2) If you are cloning an existing repository on GitHub to your computer 
+
+Be sure to be in the correct directory
+
 git config --global user.email "vyomajani@gmail.com"
 git config --global user.name "vyomajani"
 git clone https://github.com/16egong/peer_mentor_project.git
@@ -14,7 +29,7 @@ git status (Check for issues)
 git pull
 git push
 
-2) If you are creating a new repository
+3) If you are creating a new repository
 
 
 Git Cheat Sheet
